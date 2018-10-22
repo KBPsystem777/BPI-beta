@@ -1,5 +1,11 @@
 {
-  "name": "my-app",
+  "name": "banking-app",
+  "description": "Clone of the BPI beta version",
+  "author": {
+    "email": "koleen.bp@outlook.com",
+    "name": "Koleen BP",
+    "url": "https://koleenbp.now.sh"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
