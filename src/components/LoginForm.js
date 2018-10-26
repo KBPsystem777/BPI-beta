@@ -1,4 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Button = styled.button `
+    background-color: #d3010f;
+    border-color: #d3010f;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+`;
 
 class LoginForm extends React.Component {
     
@@ -19,7 +28,7 @@ class LoginForm extends React.Component {
                         <p>Password</p>
                         <input type="password" required />
                     </div>
-                    <button>Login</button>
+                    <Button>Login</Button>
                 </form>
             </div>
         )
