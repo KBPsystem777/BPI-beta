@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 const HomeScreen = styled.h1 `
-    font-family: sans-serif;
+    font-family: DaxPro, Roboto, Arial, sans-serif;
     font-size: 10px;
     color: white;
 `
